@@ -1,0 +1,162 @@
+D:\VSS\VS 2008\MTFX9500\bin\debug\MTFX9500.exe.config
+D:\VSS\VS 2008\MTFX9500\bin\debug\MTFX9500.exe
+D:\VSS\VS 2008\MTFX9500\bin\debug\MTFX9500.pdb
+D:\VSS\VS 2008\MTFX9500\bin\debug\Microsoft.Office.Interop.Excel.dll
+D:\VSS\VS 2008\MTFX9500\bin\debug\Oracle.DataAccess.dll
+D:\VSS\VS 2008\MTFX9500\bin\debug\Symbol.RFID3.Host.dll
+D:\VSS\VS 2008\MTFX9500\bin\debug\office.dll
+D:\VSS\VS 2008\MTFX9500\bin\debug\Microsoft.Vbe.Interop.dll
+D:\VSS\VS 2008\MTFX9500\bin\debug\Symbol.RFID3.Host.xml
+D:\VSS\VS 2008\MTFX9500\bin\debug\Microsoft.Office.Interop.Excel.xml
+D:\VSS\VS 2008\MTFX9500\bin\debug\office.xml
+D:\VSS\VS 2008\MTFX9500\obj\Debug\ResolveAssemblyReference.cache
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.AppForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.BlockEraseForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.CapabilitiesForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.ConnectionForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.Error_Log_Report.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.GTWBFixedReader.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.HelpForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.KillForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.LockForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.PortEntryandGeneralReader.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.PortEntyGeneralrifdDB.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.PrintOptions.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.Properties.Resources.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.ReadForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.Report.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.RFIDFixedReader.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.RFIDInternalFleet.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.TagDataForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.test.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.TestEPMS.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.WriteForm.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\MTFX9500.csproj.GenerateResource.Cache
+D:\VSS\VS 2008\MTFX9500\obj\Debug\MTFX9500.exe
+D:\VSS\VS 2008\MTFX9500\obj\Debug\MTFX9500.pdb
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.Live.FixedReader.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.ReaderControler.resources
+D:\VSS\VS 2008\MTFX9500\obj\Debug\CS_RFID3_Host_Sample1.Live.OfflineFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.AppForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.BlockEraseForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.CapabilitiesForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ConnectionForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Error_Log_Report.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.FixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.GTWBFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.HelpForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.KillForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.LockForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.OfflineFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntryandGeneralReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntyGeneralrifdDB.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PrintOptions.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Properties.Resources.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReadForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Report.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReaderControler.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDInternalFleet.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TagDataForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.test.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TestEPMS.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.WriteForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\MTFX9500.csproj.GenerateResource.Cache
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\MTFX9500.exe.config
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\MTFX9500.exe
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\MTFX9500.pdb
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Oracle.DataAccess.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\office.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Microsoft.Vbe.Interop.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\bin\debug\office.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\MTFX9500.exe
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\MTFX9500.pdb
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formTest.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader- Vijaya\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\MTFX9500.exe.config
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\MTFX9500.exe
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\MTFX9500.pdb
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\MTFX9500.exe
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\MTFX9500.pdb
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Oracle.DataAccess.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\office.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Microsoft.Vbe.Interop.dll
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\bin\debug\office.xml
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formTest.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.AppForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.BlockEraseForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.CapabilitiesForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ConnectionForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Error_Log_Report.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.FixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.GTWBFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.HelpForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.KillForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.LockForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.OfflineFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntryandGeneralReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntyGeneralrifdDB.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PrintOptions.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Properties.Resources.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReadForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Report.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReaderControler.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDFixedReader.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDInternalFleet.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TagDataForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.test.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TestEPMS.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.WriteForm.resources
+D:\F drive\Code\RFID\Motorola Fixed Reader\MTFX9500 - New\obj\Debug\MTFX9500.csproj.GenerateResource.Cache
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\MTFX9500.exe.config
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.exe
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.pdb
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\MTFX9500.exe
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\MTFX9500.pdb
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.dll
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Oracle.DataAccess.dll
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.dll
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\office.dll
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Microsoft.Vbe.Interop.dll
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Symbol.RFID3.Host.xml
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\Microsoft.Office.Interop.Excel.xml
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\office.xml
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.formTest.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.AppForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.BlockEraseForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.CapabilitiesForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ConnectionForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Error_Log_Report.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.FixedReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.GTWBFixedReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.HelpForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.KillForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.LockForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Live.OfflineFixedReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntryandGeneralReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PortEntyGeneralrifdDB.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.PrintOptions.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Properties.Resources.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReadForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.Report.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.ReaderControler.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDFixedReader.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.RFIDInternalFleet.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TagDataForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.test.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TestEPMS.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.WriteForm.resources
+D:\Sandeep\KPCT\RFID\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.csproj.GenerateResource.Cache

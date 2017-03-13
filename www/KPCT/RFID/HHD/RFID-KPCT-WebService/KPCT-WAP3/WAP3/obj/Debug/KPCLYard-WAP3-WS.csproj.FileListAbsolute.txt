@@ -1,0 +1,34 @@
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateUnRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.csproj.GenerateResource.Cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\bin\Debug\localdb.sdf
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3-WS.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3-WS.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardOperations.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTest.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\bin\Debug\localdb.sdf
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\bin\Debug\KPCLYard-WAP3-WS.exe
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\bin\Debug\KPCLYard-WAP3-WS.pdb
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formTest.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formYardOperations.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formGateRegister.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formGateUnRegister.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.csproj.GenerateResource.Cache
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.exe
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\KPCT-WAP3\WAP3\obj\Debug\KPCLYard-WAP3-WS.pdb

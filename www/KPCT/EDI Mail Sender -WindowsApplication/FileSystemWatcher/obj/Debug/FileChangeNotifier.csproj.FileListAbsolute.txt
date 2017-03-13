@@ -1,0 +1,40 @@
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\FileChangeNotifier.csproj.GenerateResource.Cache
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+C:\MyProjects\MyToolbox\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+C:\MyProjects\MyToolbox\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+C:\MyProjects\MyToolbox\FileSystemWatcher\obj\Debug\FileChangeNotifier.frmNotifier.resources
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileChangeNotifier.frmNotifier.resources
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+C:\Users\sandeep.k\Desktop\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileChangeNotifier.csproj.GenerateResource.Cache
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileChangeNotifier.frmNotifier.resources
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileChangeNotifier.csproj.GenerateResource.Cache
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+D:\F drive\Code\Navis Mails\FileSystemWatcher1\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileChangeNotifier.frmNotifier.resources
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+D:\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileChangeNotifier.csproj.GenerateResource.Cache
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileChangeNotifier.frmNotifier.resources
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileSystemWatcher.Properties.Resources.resources
+D:\Dev\Sandeep\KPCT\EDI Mail Sender -WindowsApplication\FileSystemWatcher\obj\Debug\FileChangeNotifier.csproj.GenerateResource.Cache

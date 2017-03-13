@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://172.168.1.30/rfid-web/RFID-Service.asmx?disco" filename="RFID-Service.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://172.168.1.30/rfid-web/RFID-Service.asmx?wsdl" filename="RFID-Service.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

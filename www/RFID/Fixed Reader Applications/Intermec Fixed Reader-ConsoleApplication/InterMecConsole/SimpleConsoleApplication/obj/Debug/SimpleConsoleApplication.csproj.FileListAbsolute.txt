@@ -1,0 +1,22 @@
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\bin\Debug\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+C:\Documents and Settings\BHAVIN1\Desktop\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+C:\Documents and Settings\BHAVIN1\Desktop\SimpleConsoleApplication For IF2+gpio MumMet Continous\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.exe
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\obj\Debug\SimpleConsoleApplication.pdb
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.pdb
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\RFID\Intermec\InterMecConsole\SimpleConsoleApplication\bin\Debug\SimpleConsoleApplication.exe.config

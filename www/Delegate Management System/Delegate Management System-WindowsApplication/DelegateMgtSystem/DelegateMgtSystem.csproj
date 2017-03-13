@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DelegateMgtSystem</RootNamespace>
+    <AssemblyName>DelegateMgtSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>KPCLIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Symbol.RFID3.Host, Version=1.2.0.0, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\VSS\VS 2008\MTFX9500\bin\debug\Symbol.RFID3.Host.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Class_ProperityLayer.cs" />
+    <Compile Include="DAL\GlobalVariables.cs" />
+    <Compile Include="DAL\UserLogin.cs" />
+    <Compile Include="DelegatesEventDetails\EventDetailsEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\EventDetailsEntry.Designer.cs">
+      <DependentUpon>EventDetailsEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\DelegateDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\DelegateDetails.Designer.cs">
+      <DependentUpon>DelegateDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\LocalDataSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\LocalDataSync.Designer.cs">
+      <DependentUpon>LocalDataSync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\VPassEventMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelegatesEventDetails\VPassEventMapping.Designer.cs">
+      <DependentUpon>VPassEventMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DelegateMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DelegateMonitoring.Designer.cs">
+      <DependentUpon>DelegateMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\EventMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\EventMonitoring.Designer.cs">
+      <DependentUpon>EventMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DelegateTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DelegateTracking.Designer.cs">
+      <DependentUpon>DelegateTracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DelegatesEventDetails\EventDetailsEntry.resx">
+      <DependentUpon>EventDetailsEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelegatesEventDetails\DelegateDetails.resx">
+      <DependentUpon>DelegateDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelegatesEventDetails\LocalDataSync.resx">
+      <DependentUpon>LocalDataSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelegatesEventDetails\VPassEventMapping.resx">
+      <DependentUpon>VPassEventMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\DelegateMonitoring.resx">
+      <DependentUpon>DelegateMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\EventMonitoring.resx">
+      <DependentUpon>EventMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\DelegateTracking.resx">
+      <DependentUpon>DelegateTracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KPCLIcon.ico" />
+    <None Include="Resources\upload.jpg" />
+    <None Include="Resources\Summary1.png" />
+    <None Include="Resources\gnome_network_offline.ico" />
+    <None Include="Resources\search.png" />
+    <None Include="app.config" />
+    <None Include="Resources\Allow.png" />
+    <None Include="Resources\a3.png" />
+    <None Include="Resources\light.png" />
+    <None Include="Resources\orange.png" />
+    <None Include="Resources\Correct.png" />
+    <None Include="Resources\Wrong.png" />
+    <None Include="Resources\blue.png" />
+    <None Include="Resources\grey1.png" />
+    <None Include="Resources\grey.png" />
+    <None Include="Resources\red-button-md.png" />
+    <None Include="Resources\MReader.jpg" />
+    <None Include="Resources\KPCL-MainPage-Transparent-Bg.jpg" />
+    <None Include="Resources\green.png" />
+    <None Include="Resources\Tred.png" />
+    <None Include="Resources\user lgn.png" />
+    <None Include="Resources\KPCL-LoginPage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

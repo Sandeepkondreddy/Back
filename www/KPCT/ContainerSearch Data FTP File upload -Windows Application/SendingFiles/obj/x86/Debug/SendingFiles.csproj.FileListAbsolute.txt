@@ -1,0 +1,50 @@
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\bin\Debug\SendingFiles.pdb
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Form1.resources
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.exe
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.pdb
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendingToFTP.resources
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe.config
+E:\Projects\Visual studio 2010\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe.config
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.exe
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.pdb
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.pdb
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\ResolveAssemblyReference.cache
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Form1.resources
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendingToFTP.resources
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.read.1.tlog
+\\kpclbackup\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.write.1.tlog
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe.config
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.exe
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.pdb
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.exe
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\bin\Debug\SendingFiles.pdb
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\ResolveAssemblyReference.cache
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Form1.resources
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\SendingFiles.SendingToFTP.resources
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.read.1.tlog
+\\172.168.0.9\e$\IT-EPMS\Vijaya\Builds\SendingFiles\SendingFiles\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\F drive\Code\ContainerSearchApplication Data FTP File upload\SendingFiles-Vijaya\SendingFiles\bin\Debug\SendingFiles.exe.config
+D:\F drive\Code\ContainerSearchApplication Data FTP File upload\SendingFiles-Vijaya\SendingFiles\obj\x86\Debug\SendingFiles.exe
+D:\F drive\Code\ContainerSearchApplication Data FTP File upload\SendingFiles-Vijaya\SendingFiles\obj\x86\Debug\SendingFiles.pdb
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\bin\Debug\SendingFiles.exe.config
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.exe
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.pdb
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\bin\Debug\SendingFiles.exe
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\bin\Debug\SendingFiles.pdb
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.csprojResolveAssemblyReference.cache
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.Form1.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.SendingToFTP.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFiles\obj\x86\Debug\SendingFiles.csproj.GenerateResource.Cache

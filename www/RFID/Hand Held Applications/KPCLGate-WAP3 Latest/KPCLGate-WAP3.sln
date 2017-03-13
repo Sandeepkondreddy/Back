@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPCLGate-WAP3", "WAP3\KPCLGate-WAP3.csproj", "{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "KPCL-Gate08012014Live", "test\test.vddproj", "{F3FFF396-4094-4C52-90DB-0C70F84A37DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F3FFF396-4094-4C52-90DB-0C70F84A37DF}.Debug|Any CPU.ActiveCfg = Debug
+		{F3FFF396-4094-4C52-90DB-0C70F84A37DF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

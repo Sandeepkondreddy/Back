@@ -1,0 +1,87 @@
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\localdb.sdf
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\PsionTeklogixWAP.dll
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formVerify.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardIn.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.csproj.GenerateResource.Cache
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.exe
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.pdb
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.exe
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.pdb
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardOps.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardOps.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formVerify.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardIn.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.csproj.GenerateResource.Cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\bin\Debug\localdb.sdf
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateUnRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\localdb.sdf
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\KPCLYard-WAP3.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\KPCLYard-WAP3.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\System.Data.SqlClient.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\UpdateCEMobileLocalTime.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\bin\Debug\UpdateCEMobileLocalTime.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formYardOperations.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\KPCLGate.Form1.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formConfig.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formGateRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formGateUnRegister.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formHome.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formTaskConfig.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formLogin.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formVerify.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\WAP3.formConnection.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\KPCLYard-WAP3.csproj.GenerateResource.Cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\KPCLYard-WAP3.exe
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\KPCLYard-WAP3 Latest\WAP3\obj\Debug\KPCLYard-WAP3.pdb
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\bin\Debug\localdb.sdf
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.exe
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\bin\Debug\KPCLYard-WAP3.pdb
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardOperations.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\KPCLGate.Form1.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateRegister.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formGateUnRegister.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTaskConfig.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formVerify.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard.Properties.Resources.resources
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.csproj.GenerateResource.Cache
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.exe
+D:\Sandeep\RFID\Hand Held Applications\KPCLYard-WAP3\WAP3\obj\Debug\KPCLYard-WAP3.pdb

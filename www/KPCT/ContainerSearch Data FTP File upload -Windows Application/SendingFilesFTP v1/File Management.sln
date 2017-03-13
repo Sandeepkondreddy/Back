@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Management", "File Management.csproj", "{F0E4ECB6-8029-479F-B031-F06DB7D1103C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FTP-ContainerSearch", "..\FTP-ContainerSearch\FTP-ContainerSearch.vdproj", "{85B88730-AF27-46F1-B7CD-9BE6C6912133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0E4ECB6-8029-479F-B031-F06DB7D1103C}.Debug|x86.ActiveCfg = Debug|x86
+		{F0E4ECB6-8029-479F-B031-F06DB7D1103C}.Debug|x86.Build.0 = Debug|x86
+		{F0E4ECB6-8029-479F-B031-F06DB7D1103C}.Release|x86.ActiveCfg = Release|x86
+		{F0E4ECB6-8029-479F-B031-F06DB7D1103C}.Release|x86.Build.0 = Release|x86
+		{85B88730-AF27-46F1-B7CD-9BE6C6912133}.Debug|x86.ActiveCfg = Debug
+		{85B88730-AF27-46F1-B7CD-9BE6C6912133}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

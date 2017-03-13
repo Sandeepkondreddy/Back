@@ -1,0 +1,53 @@
+D:\VSS\VS 2010\SENDINGFILESFTP\bin\Debug\SendingFiles.exe.config
+D:\VSS\VS 2010\SENDINGFILESFTP\bin\Debug\SendingFiles.exe
+D:\VSS\VS 2010\SENDINGFILESFTP\bin\Debug\SendingFiles.pdb
+D:\VSS\VS 2010\SENDINGFILESFTP\bin\Debug\Oracle.DataAccess.DLL
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.GenerateExcelandUploadFTPspecifictimesAuto.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.GenerateExcelandUploadinFTPAutoTimeSchedule.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SendFilesFromonefoldertoanother.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.GenerateExcelFileandUploadtoFTPManual.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SelectFileandUploadtoFTP.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SendIndexFile.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SendingAnyFile.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.SendingFileWidowsSchedule.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.Sendingmail.resources
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\File Management.csproj.GenerateResource.Cache
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.exe
+D:\VSS\VS 2010\SENDINGFILESFTP\obj\x86\Debug\SendingFiles.pdb
+D:\F drive\Code\Project\SendingFilesFTP v1\bin\Debug\SendingFiles.exe.config
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.exe
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.pdb
+D:\F drive\Code\Project\SendingFilesFTP v1\bin\Debug\SendingFiles.exe
+D:\F drive\Code\Project\SendingFilesFTP v1\bin\Debug\SendingFiles.pdb
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelandUploadFTPspecifictimesAuto.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelandUploadinFTPAutoTimeSchedule.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendFilesFromonefoldertoanother.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelFileandUploadtoFTPManual.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SelectFileandUploadtoFTP.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendIndexFile.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendingAnyFile.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendingFileWidowsSchedule.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.Sendingmail.resources
+D:\F drive\Code\Project\SendingFilesFTP v1\obj\x86\Debug\File Management.csproj.GenerateResource.Cache
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\bin\Debug\SendingFiles.exe.config
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.exe
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.pdb
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\bin\Debug\SendingFiles.exe
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\bin\Debug\SendingFiles.pdb
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\File Management.csprojResolveAssemblyReference.cache
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelandUploadFTPspecifictimesAuto.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelandUploadinFTPAutoTimeSchedule.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendFilesFromonefoldertoanother.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.Properties.Resources.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.GenerateExcelFileandUploadtoFTPManual.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendFilesWithTimeSchedule.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SelectFileandUploadtoFTP.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendIndexFile.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendingAnyFile.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.SendingFileWidowsSchedule.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\SendingFiles.Sendingmail.resources
+D:\Dev\Sandeep\KPCT\ContainerSearch Data FTP File upload -Windows Application\SendingFilesFTP v1\obj\x86\Debug\File Management.csproj.GenerateResource.Cache

@@ -1,0 +1,18 @@
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\bin\Oracle.DataAccess.DLL
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.pdb
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\bin\Oracle.DataAccess.DLL
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\obj\Debug\ResolveAssemblyReference.cache
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.dll
+D:\F drive\Code\RFID\RFID-WAP3 Mobile Application\RFID-WebService\RFID-Yard-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.pdb
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.dll
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\bin\RFID-WebService.pdb
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\bin\Oracle.DataAccess.DLL
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.dll
+D:\Sandeep\KPCT\RFID\HHD\RFID-KPCT-WebService\RFID-WebService\RFID-WebService\obj\Debug\RFID-WebService.pdb

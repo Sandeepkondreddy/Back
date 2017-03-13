@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://krishnapatnamport.nlr/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://krishnapatnamport.nlr/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://krishnapatnamport.nlr/">
+      <s:element name="TestInsertDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="empno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestInsertDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestInsertDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReaderIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReaderDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Tagfree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TagfreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TagfreeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Truckfree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TruckfreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TruckfreeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSync">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSyncResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsSyncResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTruckDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSync">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSyncResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsSyncResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDBTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDBTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDBTimeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDetails" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMasterDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestInsertDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:TestInsertDetails" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:TestInsertDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReaderDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReaderDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSoapIn">
+    <wsdl:part name="parameters" element="tns:Tagfree" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSoapOut">
+    <wsdl:part name="parameters" element="tns:TagfreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSoapIn">
+    <wsdl:part name="parameters" element="tns:Truckfree" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSoapOut">
+    <wsdl:part name="parameters" element="tns:TruckfreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetails" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSync" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSyncResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTruckDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetails" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSync" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSyncResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDBTime" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDBTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMasterDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMasterDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpGetIn">
+    <wsdl:part name="empno" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsHttpGetIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeHttpGetIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsHttpGetIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeHttpGetIn" />
+  <wsdl:message name="GetDBTimeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsHttpGetIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpPostIn">
+    <wsdl:part name="empno" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsHttpPostIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeHttpPostIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsHttpPostIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeHttpPostIn" />
+  <wsdl:message name="GetDBTimeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsHttpPostIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsSoapIn" />
+      <wsdl:output message="tns:TestInsertDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <wsdl:input message="tns:GetReaderDetailsSoapIn" />
+      <wsdl:output message="tns:GetReaderDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <wsdl:input message="tns:TagfreeSoapIn" />
+      <wsdl:output message="tns:TagfreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <wsdl:input message="tns:TruckfreeSoapIn" />
+      <wsdl:output message="tns:TruckfreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <wsdl:input message="tns:InsertRegDetailsSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <wsdl:input message="tns:InsertRegDetailsSyncSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <wsdl:input message="tns:GetTruckDetailsSoapIn" />
+      <wsdl:output message="tns:GetTruckDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <wsdl:input message="tns:InsertUnRegDetailsSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <wsdl:input message="tns:GetDBTimeSoapIn" />
+      <wsdl:output message="tns:GetDBTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <wsdl:input message="tns:GetMasterDetailsSoapIn" />
+      <wsdl:output message="tns:GetMasterDetailsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpGet">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsHttpGetIn" />
+      <wsdl:output message="tns:TestInsertDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <wsdl:input message="tns:GetReaderDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetReaderDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <wsdl:input message="tns:TagfreeHttpGetIn" />
+      <wsdl:output message="tns:TagfreeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <wsdl:input message="tns:TruckfreeHttpGetIn" />
+      <wsdl:output message="tns:TruckfreeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <wsdl:input message="tns:InsertRegDetailsHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <wsdl:input message="tns:InsertRegDetailsSyncHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <wsdl:input message="tns:GetTruckDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetTruckDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <wsdl:input message="tns:InsertUnRegDetailsHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <wsdl:input message="tns:GetDBTimeHttpGetIn" />
+      <wsdl:output message="tns:GetDBTimeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <wsdl:input message="tns:GetMasterDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetMasterDetailsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpPost">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsHttpPostIn" />
+      <wsdl:output message="tns:TestInsertDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <wsdl:input message="tns:GetReaderDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetReaderDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <wsdl:input message="tns:TagfreeHttpPostIn" />
+      <wsdl:output message="tns:TagfreeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <wsdl:input message="tns:TruckfreeHttpPostIn" />
+      <wsdl:output message="tns:TruckfreeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <wsdl:input message="tns:InsertRegDetailsHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <wsdl:input message="tns:InsertRegDetailsSyncHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <wsdl:input message="tns:GetTruckDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetTruckDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <wsdl:input message="tns:InsertUnRegDetailsHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <wsdl:input message="tns:GetDBTimeHttpPostIn" />
+      <wsdl:output message="tns:GetDBTimeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <wsdl:input message="tns:GetMasterDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetMasterDetailsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestInsertDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TestInsertDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/Tagfree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/Truckfree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSync" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSync" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetDBTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestInsertDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TestInsertDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/Tagfree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/Truckfree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSync" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSync" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetDBTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpGet" type="tns:Service1HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="TestInsertDetails">
+      <http:operation location="/TestInsertDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <http:operation location="/GetReaderDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <http:operation location="/Tagfree" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <http:operation location="/Truckfree" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <http:operation location="/InsertRegDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <http:operation location="/InsertRegDetailsSync" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <http:operation location="/GetTruckDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <http:operation location="/InsertUnRegDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <http:operation location="/InsertUnRegDetailsSync" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <http:operation location="/GetDBTime" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <http:operation location="/GetMasterDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpPost" type="tns:Service1HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="TestInsertDetails">
+      <http:operation location="/TestInsertDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetails">
+      <http:operation location="/GetReaderDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Tagfree">
+      <http:operation location="/Tagfree" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Truckfree">
+      <http:operation location="/Truckfree" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetails">
+      <http:operation location="/InsertRegDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSync">
+      <http:operation location="/InsertRegDetailsSync" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetails">
+      <http:operation location="/GetTruckDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetails">
+      <http:operation location="/InsertUnRegDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSync">
+      <http:operation location="/InsertUnRegDetailsSync" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTime">
+      <http:operation location="/GetDBTime" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetails">
+      <http:operation location="/GetMasterDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://172.168.0.45/rfid-web/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://172.168.0.45/rfid-web/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpGet" binding="tns:Service1HttpGet">
+      <http:address location="http://172.168.0.45/rfid-web/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpPost" binding="tns:Service1HttpPost">
+      <http:address location="http://172.168.0.45/rfid-web/RFID-Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

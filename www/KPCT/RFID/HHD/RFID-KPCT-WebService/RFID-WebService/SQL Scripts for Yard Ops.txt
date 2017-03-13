@@ -1,0 +1,21 @@
+create view VW_TRUCKSWITHGP_YARDOPSSTATUS
+(
+   PID,
+   TAGNO,
+   TRUCKNO,
+   YARDOPS_STATUS
+)
+AS
+     SELECT   a.[Tag ID],
+              a.[Tag No],
+              a.[Truck No],
+              CASE  COUNT (b.TagRegid)when '0' then 'Pending'else 'Completed' end as yardops_status
+                 
+       FROM      dbo.Tag_Register a
+              LEFT JOIN
+                 dbo.YardOperations b
+              ON a.[Tag ID] = b.TagRegid
+      WHERE   a.TransctionStatus = 'P'
+   GROUP BY   a.[Tag ID], a.[Tag No], a.[Truck No];
+
+------------------------------------------------------------------------

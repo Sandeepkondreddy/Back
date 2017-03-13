@@ -1,0 +1,61 @@
+
+Save Data From Datagridview To Database in vb.net 2008
+	
+Sign Up to vote 	bad 	
+	good 	
+See more: VB.NET
+Dear Sir / Madam
+ 
+I Made Project Which Contain Datagridview in form and also i use database as sql 2005
+ 
+now i have problem to save data from datagridview rows to database in button click event
+ 
+My code save only last row's data in database how to save all rows data from datagridview to database Here is my code
+ 
+Collapse | Copy Code
+
+RS.Open("select * from purchasebill where entryno like '" & TextEntryNo.Text & "'", CN, CursorTypeEnum.adOpenKeyset, LockTypeEnum.adLockPessimistic)
+ 
+        If (RS.EOF And RS.BOF) Then
+ 
+            RS.AddNew()
+            MsgBox(TextEntryNo.Text & "   Is Saved")
+ 
+        Else
+ 
+            If RS("EntryNo").Value = TextEntryNo.Text Then
+ 
+                MsgBox(TextEntryNo.Text & "    User Ia Allready Exist")
+                   
+                CmdNew.Focus()
+ 
+               Exit Sub
+ 
+            End If
+ 
+        End If
+       
+        RS("EntryNo").Value = TextEntryNo.Text
+        RS("Entrydate").Value = MaskEntryDate.Text
+        RS("BillNo").Value = TextBillNo.Text
+        RS("billDate").Value = MaskBillDate.Text
+        RS("SupplierName").Value = TextSupplierName.Text
+        RS("Billtype").Value = ComboBillType.Text
+         
+     For i As Integer = 0 To DGVRecord.RowCount - 1
+ 
+            RS("productname").Value = Me.DGVRecord.Rows(i).Cells("Product").Value
+            RS("batchno").Value = Me.DGVRecord.Rows(i).Cells("batchno").Value
+            RS("expirydate").Value = Me.DGVRecord.Rows(i).Cells("Expiry").Value
+ 
+        Next
+ 
+        RS.Update()
+ 
+        RS.Close()
+ 
+
+Please Help me to solve this 
+Thanking you
+Jayeshkumar m Patel
+

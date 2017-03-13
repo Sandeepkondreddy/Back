@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFIDNotifications", "RFIDNotifications.csproj", "{80F1D332-6C3A-450B-910F-AF33274105BE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AlienReader08July2016", "..\AlienReader08July2016\AlienReader08July2016.vdproj", "{E04ACD7C-7BEC-4807-ACDD-CCC588DDD389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F1D332-6C3A-450B-910F-AF33274105BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F1D332-6C3A-450B-910F-AF33274105BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F1D332-6C3A-450B-910F-AF33274105BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F1D332-6C3A-450B-910F-AF33274105BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04ACD7C-7BEC-4807-ACDD-CCC588DDD389}.Debug|Any CPU.ActiveCfg = Debug
+		{E04ACD7C-7BEC-4807-ACDD-CCC588DDD389}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

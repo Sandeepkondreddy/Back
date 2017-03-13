@@ -1,0 +1,35 @@
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+C:\My Applications\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\bin\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.AdvancedBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\bin\Release\Intermec.DataCollection.RFID.BasicBRI.dll
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\obj\Release\ResolveAssemblyReference.cache
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio M&M Delay10sec\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.exe
+D:\Bhavin Data\Haresh\SimpleConsoleApplication For IF2+gpio MumMet TwoIO\SimpleConsoleApplication\obj\Release\SimpleConsoleApplication.pdb

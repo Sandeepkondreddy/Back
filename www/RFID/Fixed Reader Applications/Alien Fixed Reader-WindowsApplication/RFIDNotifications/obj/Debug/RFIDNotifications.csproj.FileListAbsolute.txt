@@ -1,0 +1,25 @@
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\bin\Debug\RFIDNotifications.exe.config
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\bin\Debug\RFIDNotifications.exe
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\bin\Debug\RFIDNotifications.pdb
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\bin\Debug\AlienRFID2.dll
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.AddReader.resources
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.Form1.resources
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\nsNotificationsAndStreamingEx9.FormAddReader.resources
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.Properties.Resources.resources
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.RFIDNotification.resources
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.csproj.GenerateResource.Cache
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.exe
+E:\Projects\Visual studio 2008\RFIDNotifications\RFIDNotifications\obj\Debug\RFIDNotifications.pdb
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\bin\Debug\RFIDNotifications.exe.config
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.exe
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.pdb
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\bin\Debug\RFIDNotifications.exe
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\bin\Debug\RFIDNotifications.pdb
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.AddReader.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.Form1.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\nsNotificationsAndStreamingEx9.FormAddReader.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.Properties.Resources.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.RFIDNotification.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Alien Fixed Reader-WindowsApplication\RFIDNotifications\obj\Debug\RFIDNotifications.csproj.GenerateResource.Cache

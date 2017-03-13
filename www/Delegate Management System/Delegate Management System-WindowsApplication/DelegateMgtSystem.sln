@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateMgtSystem", "DelegateMgtSystem\DelegateMgtSystem.csproj", "{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DMS(test)(27.11.2015)", "DMS(test)(27.11.2015)\DMS(test)(27.11.2015).vdproj", "{624BF253-8BC6-48D9-B24E-E128979407BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7EE6B0-A303-4159-AA26-A2DB90B46E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624BF253-8BC6-48D9-B24E-E128979407BF}.Debug|Any CPU.ActiveCfg = Debug
+		{624BF253-8BC6-48D9-B24E-E128979407BF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+"select unt.id Container,rout.id POD,lin.id Line, CATEGORY,decode(FREIGHT_KIND,'FCL', 'F','MTY', 'E') FrieghtKind,GOODS_AND_CTR_WT_KG/1000 WeightMT, " +
+                "vsmst.name vesselname,eqptyp.id iso,HAZARDOUS, UN_NUM haznumber,to_char(haz.TEMP_REQD_C,'999999D9') TEMP_REQD_C  from " +
+                "system.inv_unit unt, sYSTEM.INV_UNIT_FCY_VISIT vst,SYSTEM.ARGO_CARRIER_VISIT carr,SYSTEM.REF_BIZUNIT_SCOPED lin,SYSTEM.REF_ROUTING_POINT rout , " +
+                "SYSTEM.ARGO_VISIT_DETAILS vstdet, SYSTEM.VSL_VESSEL_VISIT_DETAILS vsvstdet, SYSTEM.VSL_VESSELS vsmst, REF_EQUIP_TYPE eqptyp, " +
+                "REF_EQUIPMENT eqp, inv_unit_equip unitequip, INV_GOODS haz, INV_HAZARD_ITEMS hazitm " +
+                "where  UNT.gkey = VST.unit_GKEY and VST.ACTUAL_OB_CV= CARR.GKEY and UNT.LINE_OP = lin.gkey and UNT.POD1_GKEY = ROUT.GKEY and unt.category " +
+                "in( 'TRSHP','EXPRT') and (VST.TRANSIT_STATE LIKE '%YARD%' or last_ops_pos_id = 'TIP' ) and carr.CVCVD_GKEY = vstdet.gkey and vsvstdet.VVD_GKEY = vstdet.gkey " +
+                "and vsmst.gkey = vsvstdet.VESSEL_GKEY and unt.PRIMARY_UE = unitequip.gkey and unitequip. eq_gkey = eqp.gkey and UNT.GOODS = HAZ.GKEY and eqp.eqtyp_gkey = eqptyp.gkey " +
+                "and HAZITM.HZRD_GKEY (+) = HAZ.HAZARDS_GKEY " +
+                "and carr.id='" + vesslid + "'";
+
+
+"select unt.id Container,rout.id POD,lin.id Line, CATEGORY,decode(FREIGHT_KIND,'FCL', 'F','MTY', 'E') FrieghtKind,GOODS_AND_CTR_WT_KG/1000 WeightMT, " +
+                "vsmst.name vesselname,eqptyp.id iso,HAZARDOUS, UN_NUM haznumber,to_char(haz.TEMP_REQD_C,'999999D9') TEMP_REQD_C  from " +
+                "navis.inv_unit unt, navis.INV_UNIT_FCY_VISIT vst,navis.ARGO_CARRIER_VISIT carr,navis.REF_BIZUNIT_SCOPED lin,navis.REF_ROUTING_POINT rout , " +
+                "navis.ARGO_VISIT_DETAILS vstdet, navis.VSL_VESSEL_VISIT_DETAILS vsvstdet, navis.VSL_VESSELS vsmst, REF_EQUIP_TYPE eqptyp, " +
+                "REF_EQUIPMENT eqp, inv_unit_equip unitequip, INV_GOODS haz, INV_HAZARD_ITEMS hazitm " +
+                "where  UNT.gkey = VST.unit_GKEY and VST.ACTUAL_OB_CV= CARR.GKEY and UNT.LINE_OP = lin.gkey and UNT.POD1_GKEY = ROUT.GKEY and unt.category " +
+                "in( 'TRSHP','EXPRT') and (VST.TRANSIT_STATE LIKE '%YARD%' or last_ops_pos_id = 'TIP' ) and carr.CVCVD_GKEY = vstdet.gkey and vsvstdet.VVD_GKEY = vstdet.gkey " +
+                "and vsmst.gkey = vsvstdet.VESSEL_GKEY and unt.PRIMARY_UE = unitequip.gkey and unitequip. eq_gkey = eqp.gkey and UNT.GOODS = HAZ.GKEY and eqp.eqtyp_gkey = eqptyp.gkey " +
+                "and HAZITM.HZRD_GKEY (+) = HAZ.HAZARDS_GKEY " +
+                "and carr.id='" + vesslid + "'";
+

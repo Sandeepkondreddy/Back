@@ -1,0 +1,3647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://krishnapatnamport.nlr/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://krishnapatnamport.nlr/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://krishnapatnamport.nlr/">
+      <s:element name="TestInsertDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="empno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestInsertDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestInsertDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReaderIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReaderDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDetails" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMasterDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TagfreeOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TagfreeOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TagfreeOracleResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TruckfreeOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TruckfreeOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TruckfreeOracleResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSyncOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSyncOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsSyncOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTruckDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSyncOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSyncOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsSyncOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDBTimeOracle">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDBTimeOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDBTimeOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsforYardOperationsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsforYardOperationsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTruckDetailsforYardOperationsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loaderid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="yardoptime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertYardOperationDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSyncOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loaderid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="yardoptime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSyncOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertYardOperationDetailsSyncOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usertype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HHDlocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTOperationDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="saveoperation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="savetime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usertype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HHDlocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Qty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OPLOC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CargoCondition" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="WeatherCondition" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OpHandledBy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OpHandledType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TallySheetType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContainerNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTOperationDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertKPCTOperationDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckTallySheetDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetDetailsOracleNew">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetDetailsOracleNewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckTallySheetDetailsOracleNewResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetValidationDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetValidationDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckTallySheetValidationDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetLocationDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckTallySheetLocationDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckTallySheetLocationDetailsOracleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTTruckTallySheetDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Val1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Val9" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="savetime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTTruckTallySheetDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertKPCTTruckTallySheetDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTTruckTallySheetDetailsOracleNew">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="width" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hight" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ctotal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="savetime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKPCTTruckTallySheetDetailsOracleNewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertKPCTTruckTallySheetDetailsOracleNewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckReasonDetailsRequirementOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKPCTTruckReasonDetailsRequirementOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKPCTTruckReasonDetailsRequirementOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertReasonDetailsOracle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="saveoperation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="savetime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usertype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HHDlocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Qty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OPLOC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="reasonid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="reasondesc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertReasonDetailsOracleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertReasonDetailsOracleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocationMasterDetailsCFSSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDetails" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocationMasterDetailsCFSSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLocationMasterDetailsCFSSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocationDetailsCFSSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LocationId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocationDetailsCFSSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLocationDetailsCFSSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDBTimeSQL">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDBTimeSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDBTimeSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReaderIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReaderDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReaderDetailsSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDetails" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMasterDetailsSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TagfreeSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TagfreeSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TagfreeSQLResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TruckfreeSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TruckfreeSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TruckfreeSQLResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSyncSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertRegDetailsSyncSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertRegDetailsSyncSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTruckDetailsSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSyncSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trucktype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unregtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUnRegDetailsSyncSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUnRegDetailsSyncSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsforYardOperationsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTruckDetailsforYardOperationsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTruckDetailsforYardOperationsSQLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loaderid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="yardoptime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertYardOperationDetailsSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSyncSQL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tagno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="truckno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loaderid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="readerip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="yardoptime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertYardOperationDetailsSyncSQLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertYardOperationDetailsSyncSQLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestInsertDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:TestInsertDetails" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:TestInsertDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReaderDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReaderDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMasterDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMasterDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:TagfreeOracle" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:TagfreeOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:TruckfreeOracle" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:TruckfreeOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSyncOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSyncOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSyncOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSyncOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDBTimeOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDBTimeOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsforYardOperationsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsforYardOperationsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSyncOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSyncOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertKPCTOperationDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertKPCTOperationDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetDetailsOracleNew" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetDetailsOracleNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetValidationDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetValidationDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetLocationDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckTallySheetLocationDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertKPCTTruckTallySheetDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertKPCTTruckTallySheetDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertKPCTTruckTallySheetDetailsOracleNew" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertKPCTTruckTallySheetDetailsOracleNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckReasonDetailsRequirementOracle" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKPCTTruckReasonDetailsRequirementOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertReasonDetailsOracle" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertReasonDetailsOracleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocationMasterDetailsCFSSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocationMasterDetailsCFSSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocationDetailsCFSSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocationDetailsCFSSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDBTimeSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDBTimeSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReaderDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReaderDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMasterDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMasterDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:TagfreeSQL" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:TagfreeSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:TruckfreeSQL" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:TruckfreeSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSyncSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertRegDetailsSyncSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSyncSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUnRegDetailsSyncSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsforYardOperationsSQL" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTruckDetailsforYardOperationsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSyncSQL" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertYardOperationDetailsSyncSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpGetIn">
+    <wsdl:part name="empno" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleHttpGetIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleHttpGetIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleHttpGetIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleHttpGetIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeOracleHttpGetIn" />
+  <wsdl:message name="GetDBTimeOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="saveoperation" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="Qty" type="s:string" />
+    <wsdl:part name="OPLOC" type="s:string" />
+    <wsdl:part name="CargoCondition" type="s:string" />
+    <wsdl:part name="WeatherCondition" type="s:string" />
+    <wsdl:part name="OpHandledBy" type="s:string" />
+    <wsdl:part name="OpHandledType" type="s:string" />
+    <wsdl:part name="TallySheetType" type="s:string" />
+    <wsdl:part name="ContainerNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleHttpGetIn">
+    <wsdl:part name="Val1" type="s:string" />
+    <wsdl:part name="Val2" type="s:string" />
+    <wsdl:part name="Val3" type="s:string" />
+    <wsdl:part name="Val4" type="s:string" />
+    <wsdl:part name="Val5" type="s:string" />
+    <wsdl:part name="Val6" type="s:string" />
+    <wsdl:part name="Val7" type="s:string" />
+    <wsdl:part name="Val8" type="s:string" />
+    <wsdl:part name="Val9" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="width" type="s:string" />
+    <wsdl:part name="hight" type="s:string" />
+    <wsdl:part name="ctotal" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="saveoperation" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="Qty" type="s:string" />
+    <wsdl:part name="OPLOC" type="s:string" />
+    <wsdl:part name="reasonid" type="s:string" />
+    <wsdl:part name="reasondesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLHttpGetIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLHttpGetIn">
+    <wsdl:part name="LocationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSQLHttpGetIn" />
+  <wsdl:message name="GetDBTimeSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLHttpGetIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLHttpGetIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLHttpGetIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLHttpGetIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLHttpGetIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpPostIn">
+    <wsdl:part name="empno" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TestInsertDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleHttpPostIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleHttpPostIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleHttpPostIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleHttpPostIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeOracleHttpPostIn" />
+  <wsdl:message name="GetDBTimeOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="saveoperation" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="Qty" type="s:string" />
+    <wsdl:part name="OPLOC" type="s:string" />
+    <wsdl:part name="CargoCondition" type="s:string" />
+    <wsdl:part name="WeatherCondition" type="s:string" />
+    <wsdl:part name="OpHandledBy" type="s:string" />
+    <wsdl:part name="OpHandledType" type="s:string" />
+    <wsdl:part name="TallySheetType" type="s:string" />
+    <wsdl:part name="ContainerNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTOperationDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetDetailsOracleNewHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetValidationDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckTallySheetLocationDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleHttpPostIn">
+    <wsdl:part name="Val1" type="s:string" />
+    <wsdl:part name="Val2" type="s:string" />
+    <wsdl:part name="Val3" type="s:string" />
+    <wsdl:part name="Val4" type="s:string" />
+    <wsdl:part name="Val5" type="s:string" />
+    <wsdl:part name="Val6" type="s:string" />
+    <wsdl:part name="Val7" type="s:string" />
+    <wsdl:part name="Val8" type="s:string" />
+    <wsdl:part name="Val9" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="width" type="s:string" />
+    <wsdl:part name="hight" type="s:string" />
+    <wsdl:part name="ctotal" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertKPCTTruckTallySheetDetailsOracleNewHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetKPCTTruckReasonDetailsRequirementOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="saveoperation" type="s:string" />
+    <wsdl:part name="savetime" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="usertype" type="s:string" />
+    <wsdl:part name="HHDlocation" type="s:string" />
+    <wsdl:part name="Qty" type="s:string" />
+    <wsdl:part name="OPLOC" type="s:string" />
+    <wsdl:part name="reasonid" type="s:string" />
+    <wsdl:part name="reasondesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertReasonDetailsOracleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLHttpPostIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationMasterDetailsCFSSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLHttpPostIn">
+    <wsdl:part name="LocationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationDetailsCFSSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDBTimeSQLHttpPostIn" />
+  <wsdl:message name="GetDBTimeSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLHttpPostIn">
+    <wsdl:part name="ReaderIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReaderDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLHttpPostIn">
+    <wsdl:part name="getDetails" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TagfreeSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLHttpPostIn">
+    <wsdl:part name="truckno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TruckfreeSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="optype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="remarks" type="s:string" />
+    <wsdl:part name="regtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertRegDetailsSyncSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLHttpPostIn">
+    <wsdl:part name="regid" type="s:string" />
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="trucktype" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="unregtime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUnRegDetailsSyncSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTruckDetailsforYardOperationsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLHttpPostIn">
+    <wsdl:part name="tagno" type="s:string" />
+    <wsdl:part name="truckno" type="s:string" />
+    <wsdl:part name="loaderid" type="s:string" />
+    <wsdl:part name="readerno" type="s:string" />
+    <wsdl:part name="readerip" type="s:string" />
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="yardoptime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertYardOperationDetailsSyncSQLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsSoapIn" />
+      <wsdl:output message="tns:TestInsertDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <wsdl:input message="tns:GetReaderDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetReaderDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <wsdl:input message="tns:GetMasterDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetMasterDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <wsdl:input message="tns:TagfreeOracleSoapIn" />
+      <wsdl:output message="tns:TagfreeOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <wsdl:input message="tns:TruckfreeOracleSoapIn" />
+      <wsdl:output message="tns:TruckfreeOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <wsdl:input message="tns:InsertRegDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertRegDetailsSyncOracleSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <wsdl:input message="tns:GetTruckDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetTruckDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncOracleSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <wsdl:input message="tns:GetDBTimeOracleSoapIn" />
+      <wsdl:output message="tns:GetDBTimeOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsOracleSoapIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncOracleSoapIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTOperationDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertKPCTOperationDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleNewSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleNewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetValidationDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetValidationDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetLocationDetailsOracleSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetLocationDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleNewSoapIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleNewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <wsdl:input message="tns:GetKPCTTruckReasonDetailsRequirementOracleSoapIn" />
+      <wsdl:output message="tns:GetKPCTTruckReasonDetailsRequirementOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <wsdl:input message="tns:InsertReasonDetailsOracleSoapIn" />
+      <wsdl:output message="tns:InsertReasonDetailsOracleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationMasterDetailsCFSSQLSoapIn" />
+      <wsdl:output message="tns:GetLocationMasterDetailsCFSSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationDetailsCFSSQLSoapIn" />
+      <wsdl:output message="tns:GetLocationDetailsCFSSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <wsdl:input message="tns:GetDBTimeSQLSoapIn" />
+      <wsdl:output message="tns:GetDBTimeSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <wsdl:input message="tns:GetReaderDetailsSQLSoapIn" />
+      <wsdl:output message="tns:GetReaderDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <wsdl:input message="tns:GetMasterDetailsSQLSoapIn" />
+      <wsdl:output message="tns:GetMasterDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <wsdl:input message="tns:TagfreeSQLSoapIn" />
+      <wsdl:output message="tns:TagfreeSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <wsdl:input message="tns:TruckfreeSQLSoapIn" />
+      <wsdl:output message="tns:TruckfreeSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <wsdl:input message="tns:InsertRegDetailsSQLSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertRegDetailsSyncSQLSoapIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <wsdl:input message="tns:GetTruckDetailsSQLSoapIn" />
+      <wsdl:output message="tns:GetTruckDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSQLSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncSQLSoapIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsSQLSoapIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSQLSoapIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSQLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncSQLSoapIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncSQLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpGet">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsHttpGetIn" />
+      <wsdl:output message="tns:TestInsertDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <wsdl:input message="tns:GetReaderDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetReaderDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <wsdl:input message="tns:GetMasterDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetMasterDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <wsdl:input message="tns:TagfreeOracleHttpGetIn" />
+      <wsdl:output message="tns:TagfreeOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <wsdl:input message="tns:TruckfreeOracleHttpGetIn" />
+      <wsdl:output message="tns:TruckfreeOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <wsdl:input message="tns:InsertRegDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertRegDetailsSyncOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <wsdl:input message="tns:GetTruckDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetTruckDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <wsdl:input message="tns:GetDBTimeOracleHttpGetIn" />
+      <wsdl:output message="tns:GetDBTimeOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTOperationDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertKPCTOperationDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleNewHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleNewHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetValidationDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetValidationDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetLocationDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetLocationDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleNewHttpGetIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleNewHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <wsdl:input message="tns:GetKPCTTruckReasonDetailsRequirementOracleHttpGetIn" />
+      <wsdl:output message="tns:GetKPCTTruckReasonDetailsRequirementOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <wsdl:input message="tns:InsertReasonDetailsOracleHttpGetIn" />
+      <wsdl:output message="tns:InsertReasonDetailsOracleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationMasterDetailsCFSSQLHttpGetIn" />
+      <wsdl:output message="tns:GetLocationMasterDetailsCFSSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationDetailsCFSSQLHttpGetIn" />
+      <wsdl:output message="tns:GetLocationDetailsCFSSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <wsdl:input message="tns:GetDBTimeSQLHttpGetIn" />
+      <wsdl:output message="tns:GetDBTimeSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <wsdl:input message="tns:GetReaderDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:GetReaderDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <wsdl:input message="tns:GetMasterDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:GetMasterDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <wsdl:input message="tns:TagfreeSQLHttpGetIn" />
+      <wsdl:output message="tns:TagfreeSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <wsdl:input message="tns:TruckfreeSQLHttpGetIn" />
+      <wsdl:output message="tns:TruckfreeSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <wsdl:input message="tns:InsertRegDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertRegDetailsSyncSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <wsdl:input message="tns:GetTruckDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:GetTruckDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsSQLHttpGetIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSQLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncSQLHttpGetIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncSQLHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpPost">
+    <wsdl:operation name="TestInsertDetails">
+      <wsdl:input message="tns:TestInsertDetailsHttpPostIn" />
+      <wsdl:output message="tns:TestInsertDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <wsdl:input message="tns:GetReaderDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetReaderDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <wsdl:input message="tns:GetMasterDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetMasterDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <wsdl:input message="tns:TagfreeOracleHttpPostIn" />
+      <wsdl:output message="tns:TagfreeOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <wsdl:input message="tns:TruckfreeOracleHttpPostIn" />
+      <wsdl:output message="tns:TruckfreeOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <wsdl:input message="tns:InsertRegDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertRegDetailsSyncOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <wsdl:input message="tns:GetTruckDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetTruckDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <wsdl:input message="tns:GetDBTimeOracleHttpPostIn" />
+      <wsdl:output message="tns:GetDBTimeOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTOperationDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertKPCTOperationDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetDetailsOracleNewHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetDetailsOracleNewHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetValidationDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetValidationDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <wsdl:input message="tns:GetKPCTTruckTallySheetLocationDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckTallySheetLocationDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <wsdl:input message="tns:InsertKPCTTruckTallySheetDetailsOracleNewHttpPostIn" />
+      <wsdl:output message="tns:InsertKPCTTruckTallySheetDetailsOracleNewHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <wsdl:input message="tns:GetKPCTTruckReasonDetailsRequirementOracleHttpPostIn" />
+      <wsdl:output message="tns:GetKPCTTruckReasonDetailsRequirementOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <wsdl:input message="tns:InsertReasonDetailsOracleHttpPostIn" />
+      <wsdl:output message="tns:InsertReasonDetailsOracleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationMasterDetailsCFSSQLHttpPostIn" />
+      <wsdl:output message="tns:GetLocationMasterDetailsCFSSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <wsdl:input message="tns:GetLocationDetailsCFSSQLHttpPostIn" />
+      <wsdl:output message="tns:GetLocationDetailsCFSSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <wsdl:input message="tns:GetDBTimeSQLHttpPostIn" />
+      <wsdl:output message="tns:GetDBTimeSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <wsdl:input message="tns:GetReaderDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:GetReaderDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <wsdl:input message="tns:GetMasterDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:GetMasterDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <wsdl:input message="tns:TagfreeSQLHttpPostIn" />
+      <wsdl:output message="tns:TagfreeSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <wsdl:input message="tns:TruckfreeSQLHttpPostIn" />
+      <wsdl:output message="tns:TruckfreeSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <wsdl:input message="tns:InsertRegDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertRegDetailsSyncSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertRegDetailsSyncSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <wsdl:input message="tns:GetTruckDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:GetTruckDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <wsdl:input message="tns:InsertUnRegDetailsSyncSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertUnRegDetailsSyncSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <wsdl:input message="tns:GetTruckDetailsforYardOperationsSQLHttpPostIn" />
+      <wsdl:output message="tns:GetTruckDetailsforYardOperationsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSQLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <wsdl:input message="tns:InsertYardOperationDetailsSyncSQLHttpPostIn" />
+      <wsdl:output message="tns:InsertYardOperationDetailsSyncSQLHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestInsertDetails">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TestInsertDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TagfreeOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TruckfreeOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetDBTimeOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsforYardOperationsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTOperationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetDetailsOracleNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetValidationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetLocationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTTruckTallySheetDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTTruckTallySheetDetailsOracleNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckReasonDetailsRequirementOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertReasonDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetLocationMasterDetailsCFSSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetLocationDetailsCFSSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetDBTimeSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TagfreeSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/TruckfreeSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsforYardOperationsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <soap:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestInsertDetails">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TestInsertDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TagfreeOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TruckfreeOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetDBTimeOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsforYardOperationsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSyncOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTOperationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetDetailsOracleNew" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetValidationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckTallySheetLocationDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTTruckTallySheetDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertKPCTTruckTallySheetDetailsOracleNew" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetKPCTTruckReasonDetailsRequirementOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertReasonDetailsOracle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetLocationMasterDetailsCFSSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetLocationDetailsCFSSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetDBTimeSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetReaderDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetMasterDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TagfreeSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/TruckfreeSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertRegDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertUnRegDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/GetTruckDetailsforYardOperationsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <soap12:operation soapAction="http://krishnapatnamport.nlr/InsertYardOperationDetailsSyncSQL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpGet" type="tns:Service1HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="TestInsertDetails">
+      <http:operation location="/TestInsertDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <http:operation location="/GetReaderDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <http:operation location="/GetMasterDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <http:operation location="/TagfreeOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <http:operation location="/TruckfreeOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <http:operation location="/InsertRegDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <http:operation location="/InsertRegDetailsSyncOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <http:operation location="/GetTruckDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <http:operation location="/InsertUnRegDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <http:operation location="/InsertUnRegDetailsSyncOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <http:operation location="/GetDBTimeOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <http:operation location="/GetTruckDetailsforYardOperationsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <http:operation location="/InsertYardOperationDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <http:operation location="/InsertYardOperationDetailsSyncOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <http:operation location="/GetKPCTTruckDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <http:operation location="/InsertKPCTOperationDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <http:operation location="/GetKPCTTruckTallySheetDetailsOracleNew" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetValidationDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetLocationDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <http:operation location="/InsertKPCTTruckTallySheetDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <http:operation location="/InsertKPCTTruckTallySheetDetailsOracleNew" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <http:operation location="/GetKPCTTruckReasonDetailsRequirementOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <http:operation location="/InsertReasonDetailsOracle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <http:operation location="/GetLocationMasterDetailsCFSSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <http:operation location="/GetLocationDetailsCFSSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <http:operation location="/GetDBTimeSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <http:operation location="/GetReaderDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <http:operation location="/GetMasterDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <http:operation location="/TagfreeSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <http:operation location="/TruckfreeSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <http:operation location="/InsertRegDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <http:operation location="/InsertRegDetailsSyncSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <http:operation location="/GetTruckDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <http:operation location="/InsertUnRegDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <http:operation location="/InsertUnRegDetailsSyncSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <http:operation location="/GetTruckDetailsforYardOperationsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <http:operation location="/InsertYardOperationDetailsSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <http:operation location="/InsertYardOperationDetailsSyncSQL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpPost" type="tns:Service1HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="TestInsertDetails">
+      <http:operation location="/TestInsertDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsOracle">
+      <http:operation location="/GetReaderDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsOracle">
+      <http:operation location="/GetMasterDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeOracle">
+      <http:operation location="/TagfreeOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeOracle">
+      <http:operation location="/TruckfreeOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsOracle">
+      <http:operation location="/InsertRegDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncOracle">
+      <http:operation location="/InsertRegDetailsSyncOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsOracle">
+      <http:operation location="/GetTruckDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsOracle">
+      <http:operation location="/InsertUnRegDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncOracle">
+      <http:operation location="/InsertUnRegDetailsSyncOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeOracle">
+      <http:operation location="/GetDBTimeOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsOracle">
+      <http:operation location="/GetTruckDetailsforYardOperationsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsOracle">
+      <http:operation location="/InsertYardOperationDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncOracle">
+      <http:operation location="/InsertYardOperationDetailsSyncOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckDetailsOracle">
+      <http:operation location="/GetKPCTTruckDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTOperationDetailsOracle">
+      <http:operation location="/InsertKPCTOperationDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetDetailsOracleNew">
+      <http:operation location="/GetKPCTTruckTallySheetDetailsOracleNew" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetValidationDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetValidationDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckTallySheetLocationDetailsOracle">
+      <http:operation location="/GetKPCTTruckTallySheetLocationDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracle">
+      <http:operation location="/InsertKPCTTruckTallySheetDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKPCTTruckTallySheetDetailsOracleNew">
+      <http:operation location="/InsertKPCTTruckTallySheetDetailsOracleNew" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKPCTTruckReasonDetailsRequirementOracle">
+      <http:operation location="/GetKPCTTruckReasonDetailsRequirementOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertReasonDetailsOracle">
+      <http:operation location="/InsertReasonDetailsOracle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationMasterDetailsCFSSQL">
+      <http:operation location="/GetLocationMasterDetailsCFSSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationDetailsCFSSQL">
+      <http:operation location="/GetLocationDetailsCFSSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTimeSQL">
+      <http:operation location="/GetDBTimeSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReaderDetailsSQL">
+      <http:operation location="/GetReaderDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterDetailsSQL">
+      <http:operation location="/GetMasterDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TagfreeSQL">
+      <http:operation location="/TagfreeSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TruckfreeSQL">
+      <http:operation location="/TruckfreeSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSQL">
+      <http:operation location="/InsertRegDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRegDetailsSyncSQL">
+      <http:operation location="/InsertRegDetailsSyncSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsSQL">
+      <http:operation location="/GetTruckDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSQL">
+      <http:operation location="/InsertUnRegDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUnRegDetailsSyncSQL">
+      <http:operation location="/InsertUnRegDetailsSyncSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTruckDetailsforYardOperationsSQL">
+      <http:operation location="/GetTruckDetailsforYardOperationsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSQL">
+      <http:operation location="/InsertYardOperationDetailsSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertYardOperationDetailsSyncSQL">
+      <http:operation location="/InsertYardOperationDetailsSyncSQL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://202.83.27.197/RFID-WEB/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://202.83.27.197/RFID-WEB/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpGet" binding="tns:Service1HttpGet">
+      <http:address location="http://202.83.27.197/RFID-WEB/RFID-Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpPost" binding="tns:Service1HttpPost">
+      <http:address location="http://202.83.27.197/RFID-WEB/RFID-Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

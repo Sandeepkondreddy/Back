@@ -1,0 +1,266 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{083DFC9E-9F99-48D5-81C1-1E55FFC9A7CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KPCLYard</RootNamespace>
+    <AssemblyName>KPCLYard-WAP3</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>KPCL-WAP3-Yard</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>kpcl.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CAENModule, Version=1.0.3371.21611, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\CAENModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CAENRFIDLibraryPocketPC, Version=4.0.0.30855, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\CAENRFIDLibraryPocketPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\Microsoft.WindowsCE.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="PsionTeklogixNet, Version=3.0.1.123, Culture=neutral, PublicKeyToken=6c395979df126b25, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RFIDWap\RFIDWap\bin\Debug\PsionTeklogixNet.dll</HintPath>
+    </Reference>
+    <Reference Include="PsionTeklogixWAP, Version=1.1.3161.29063, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RFIDWap\RFIDWap\bin\Debug\PsionTeklogixWAP.dll</HintPath>
+    </Reference>
+    <Reference Include="PTEMEAMS, Version=1.12.3685.21562, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\PTEMEAMS.dll</HintPath>
+    </Reference>
+    <Reference Include="Resco.CommonControls.CF3, Version=6.9.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\RescoCFNET\Bin\Resco.CommonControls.CF3.dll</HintPath>
+    </Reference>
+    <Reference Include="Resco.OutlookControls.CF3, Version=6.9.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\RescoCFNET\Bin\Resco.OutlookControls.CF3.dll</HintPath>
+    </Reference>
+    <Reference Include="RFIDDriver, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\RFIDDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=3.0.3600.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WAP3IFMS\WAP3IFMS\bin\Debug\System.Data.SqlServerCe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UpdateCEMobileLocalTime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\KPCL-Internal-WAP3\WAP3\bin\Debug\UpdateCEMobileLocalTime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classConnectivityCheck.cs" />
+    <Compile Include="classLog.cs" />
+    <Compile Include="classLogin.cs" />
+    <Compile Include="classServerDetails.cs" />
+    <Compile Include="formYardOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formYardOperations.designer.cs">
+      <DependentUpon>formYardOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formYardOperations.Graphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formYardOperations.Reader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConfig.designer.cs">
+      <DependentUpon>formConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formGateRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGateRegister.designer.cs">
+      <DependentUpon>formGateRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formGateRegister.Graphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGateRegister.Reader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGateUnRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGateUnRegister.designer.cs">
+      <DependentUpon>formGateUnRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formGateUnRegister.Graphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGateUnRegister.Reader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHome.Designer.cs">
+      <DependentUpon>formHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTaskConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTaskConfig.Designer.cs">
+      <DependentUpon>formTaskConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSyncMasterData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSyncMasterData.designer.cs">
+      <DependentUpon>formSyncMasterData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVerify.Designer.cs">
+      <DependentUpon>formVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConnection.designer.cs">
+      <DependentUpon>formConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formYardOperations.resx">
+      <DependentUpon>formYardOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConfig.resx">
+      <DependentUpon>formConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formGateRegister.resx">
+      <DependentUpon>formGateRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formGateUnRegister.resx">
+      <DependentUpon>formGateUnRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHome.resx">
+      <DependentUpon>formHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTaskConfig.resx">
+      <DependentUpon>formTaskConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSyncMasterData.resx">
+      <DependentUpon>formSyncMasterData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVerify.resx">
+      <DependentUpon>formVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConnection.resx">
+      <DependentUpon>formConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SelfMarshalledStruct.cs" />
+    <Compile Include="WLANHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kpcl.ico" />
+    <Content Include="localdb.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

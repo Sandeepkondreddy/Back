@@ -1,0 +1,172 @@
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\WAP3.exe
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\WAP3.pdb
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\CAENModule.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\CAENRFIDLibraryPocketPC.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\PTEMEAMS.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\RFIDDriver.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\System.Data.SqlServerCe.dll
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.xml
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.exe
+C:\Documents and Settings\sandeep.k\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\CAENModule.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\CAENRFIDLibraryPocketPC.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\PTEMEAMS.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\RFIDDriver.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.xml
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\InternalDB.sdf
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\PsionTeklogixNet.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\PsionTeklogixWAP.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Resco.CommonControls.CF3.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Resco.OutlookControls.CF3.dll
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Resco.CommonControls.CF3.xml
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\bin\Debug\Resco.OutlookControls.CF3.xml
+C:\Users\sandeep.k\Desktop\Desktop\IFMS\WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formConfig.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formHome.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formWAPG3.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formConnection.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\localdb.sdf
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\Resco.CommonControls.CF3.dll
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\Resco.OutlookControls.CF3.dll
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\System.Data.SqlClient.dll
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\Resco.CommonControls.CF3.xml
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\bin\Debug\Resco.OutlookControls.CF3.xml
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formLogin.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formVerify.resources
+C:\Users\sandeep.k\Desktop\WAP3v2\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\localdb.sdf
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\WAP3.exe
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\WAP3.pdb
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\CAENModule.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\CAENRFIDLibraryPocketPC.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\PsionTeklogixNet.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\PsionTeklogixWAP.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\PTEMEAMS.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\RFIDDriver.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\System.Data.SqlClient.dll
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\bin\Debug\Microsoft.WindowsCE.Forms.xml
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConfig.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formHome.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formLogin.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formVerify.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formWAPG3.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConnection.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.exe
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.pdb
+F:\Desktop\IFMS\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\bin\Debug\localdb.sdf
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\bin\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\bin\Debug\WAP3.pdb
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\bin\Debug\System.Data.SqlClient.dll
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConfig.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formHome.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formLogin.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formVerify.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formWAPG3.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConnection.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.exe
+C:\Users\sandeep.k\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.pdb
+F:\Desktop\CT-WAP3v2\WAP3\bin\Debug\localdb.sdf
+F:\Desktop\CT-WAP3v2\WAP3\bin\Debug\WAP3.exe
+F:\Desktop\CT-WAP3v2\WAP3\bin\Debug\WAP3.pdb
+F:\Desktop\CT-WAP3v2\WAP3\bin\Debug\PsionTeklogixWAP.dll
+F:\Desktop\CT-WAP3v2\WAP3\bin\Debug\System.Data.SqlClient.dll
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConfig.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formHome.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formLogin.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formVerify.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formWAPG3.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.formConnection.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.exe
+F:\Desktop\CT-WAP3v2\WAP3\obj\Debug\WAP3.pdb
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formVerify.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+F:\Desktop\KPCLGate-WAP3\WAP3\bin\Debug\localdb.sdf
+F:\Desktop\KPCLGate-WAP3\WAP3\bin\Debug\WAP3.exe
+F:\Desktop\KPCLGate-WAP3\WAP3\bin\Debug\WAP3.pdb
+F:\Desktop\KPCLGate-WAP3\WAP3\bin\Debug\PsionTeklogixWAP.dll
+F:\Desktop\KPCLGate-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.exe
+F:\Desktop\KPCLGate-WAP3\WAP3\obj\Debug\WAP3.pdb
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\localdb.sdf
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\WAP3.exe
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\WAP3.pdb
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\PsionTeklogixWAP.dll
+F:\Desktop\KPCLYard-WAP3\WAP3\bin\Debug\System.Data.SqlClient.dll
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\ResolveAssemblyReference.cache
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConfig.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formHome.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formInternalFleetReg.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formLogin.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formSyncMasterData.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagRegistration.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formTagUnRegistation.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formVerify.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formWAPG3.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formConnection.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.Properties.Resources.resources
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.csproj.GenerateResource.Cache
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.exe
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.pdb
+F:\Desktop\KPCLYard-WAP3\WAP3\obj\Debug\WAP3.formYardIn.resources

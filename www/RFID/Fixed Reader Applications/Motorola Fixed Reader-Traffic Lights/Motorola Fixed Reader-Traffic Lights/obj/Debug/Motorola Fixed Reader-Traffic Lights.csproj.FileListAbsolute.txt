@@ -1,0 +1,12 @@
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\bin\Debug\Motorola Fixed Reader-Traffic Lights.exe.config
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\bin\Debug\Motorola Fixed Reader-Traffic Lights.exe
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\bin\Debug\Motorola Fixed Reader-Traffic Lights.pdb
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\ResolveAssemblyReference.cache
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola_Fixed_Reader_Traffic_Lights.Properties.Resources.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola Fixed Reader-Traffic Lights.csproj.GenerateResource.Cache
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola Fixed Reader-Traffic Lights.exe
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola Fixed Reader-Traffic Lights.pdb
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\bin\Debug\Symbol.RFID3.Host.dll
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola_Fixed_Reader_Traffic_Lights.Form1.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola_Fixed_Reader_Traffic_Lights.formTrafficLights.resources
+D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-Traffic Lights\Motorola Fixed Reader-Traffic Lights\obj\Debug\Motorola_Fixed_Reader_Traffic_Lights.FixedReaderTrafficLights.resources

@@ -1,0 +1,41 @@
+ALTER PROCEDURE [dbo].[prc_OfflineInternalFleet]
+	
+AS
+BEGIN
+	
+	SET NOCOUNT ON;
+
+		BULK
+			INSERT OfflineInternalFleet
+				FROM 'OfflineTagDataLog.txt' --location with filename
+				WITH
+				(
+					FIELDTERMINATOR = ',',
+					ROWTERMINATOR = '\n'
+				)
+END
+
+
+
+
+==========================================================================================
+
+
+CREATE TABLE [dbo].[OfflineInternalFleet](
+	[sno] [int] IDENTITY(1,1) NOT NULL,
+	[tagno] [nvarchar](50) NOT NULL,
+	[Ant] [nchar](10) NOT NULL,
+	[wbno] [nchar](10) NOT NULL,
+	[readdt] [datetime] NOT NULL,
+	[truckno] [nvarchar](50) NULL,
+	[Reader] [nvarchar](50) NULL,
+ CONSTRAINT [PK_OfflineInternalFleet] PRIMARY KEY CLUSTERED 
+(
+	[sno] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+
+
+
