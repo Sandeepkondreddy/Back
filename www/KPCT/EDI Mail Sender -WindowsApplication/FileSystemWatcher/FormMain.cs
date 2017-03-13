@@ -279,56 +279,65 @@ namespace FileChangeNotifier
 
         public void insertEDIDetails(string line,string filename,string filepath)
         {
-            if (Sqlcon.State == ConnectionState.Closed || Sqlcon.State == ConnectionState.Broken)
-            {
-                Sqlcon.Open();
-            }
-            string Query = "Insert into [dbo].[EDIData] ([Line],[FileName],[FilePath]) Values('" + line + "','" + filename + "','" + filepath + "')";
-            SqlCommand cmd = new SqlCommand(Query, Sqlcon);
             try
             {
+                if (Sqlcon.State == ConnectionState.Closed || Sqlcon.State == ConnectionState.Broken)
+                {
+                    Sqlcon.Open();
+                }
+                string Query = "Insert into [dbo].[EDIData] ([Line],[FileName],[FilePath]) Values('" + line + "','" + filename + "','" + filepath + "')";
+                SqlCommand cmd = new SqlCommand(Query, Sqlcon);
+           
                 cmd.ExecuteNonQuery();
+           
+            //string MailSendingStatus= Sendmail(line,filename, filepath);
+                Sqlcon.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                //MessageBox.Show(ex.ToString());
+                Sendmail(line, filename, filepath);
             }
-            //string MailSendingStatus= Sendmail(line,filename, filepath);
-            Sqlcon.Close();
             SendPendingMails(); PreviousExecutiondate = System.DateTime.Now;
         }
 
         public void SendPendingMails()
         {
-            if (Sqlcon.State == ConnectionState.Closed || Sqlcon.State == ConnectionState.Broken)
+            try
             {
-                Sqlcon.Open();
-            }
-            string Qr = "select count(*) from [dbo].[EDIData] where Line='" + Line + "' and [MailStatus] is null";
-            SqlCommand cmd = new SqlCommand(Qr, Sqlcon);
-            int flg = int.Parse(cmd.ExecuteScalar().ToString());
-            if (flg > 0)
-            {
-                for (int i = 0; i < flg; i++)
+                if (Sqlcon.State == ConnectionState.Closed || Sqlcon.State == ConnectionState.Broken)
                 {
-                    string cmd0 = "select TOP 1 [Line],[FileName],[FilePath] from [dbo].[EDIData] where Line='" + Line + "' and [MailStatus] is null order by Id asc";
-                    SqlDataAdapter da = new SqlDataAdapter(cmd0, Sqlcon);
-                    DataSet ds = new DataSet();
-                    da.Fill(ds);
-                    if (ds.Tables[0].Rows.Count > 0)
+                    Sqlcon.Open();
+                }
+                string Qr = "select count(*) from [dbo].[EDIData] where Line='" + Line + "' and [MailStatus] is null";
+                SqlCommand cmd = new SqlCommand(Qr, Sqlcon);
+                int flg = int.Parse(cmd.ExecuteScalar().ToString());
+                if (flg > 0)
+                {
+                    for (int i = 0; i < flg; i++)
                     {
-                        string MailSendingStatus = Sendmail(ds.Tables[0].Rows[0].ItemArray[0].ToString(), ds.Tables[0].Rows[0].ItemArray[1].ToString(), ds.Tables[0].Rows[0].ItemArray[2].ToString());
-                        if (MailSendingStatus == "Success")
+                        string cmd0 = "select TOP 1 [Line],[FileName],[FilePath] from [dbo].[EDIData] where Line='" + Line + "' and [MailStatus] is null order by Id asc";
+                        SqlDataAdapter da = new SqlDataAdapter(cmd0, Sqlcon);
+                        DataSet ds = new DataSet();
+                        da.Fill(ds);
+                        if (ds.Tables[0].Rows.Count > 0)
                         {
-                            string Qry = "Update [dbo].[EDIData] set [MailStatus]='Suceess' where FileName='" + ds.Tables[0].Rows[0].ItemArray[1].ToString() + "'";
-                            SqlCommand cmd1 = new SqlCommand(Qry, Sqlcon);
+                            string MailSendingStatus = Sendmail(ds.Tables[0].Rows[0].ItemArray[0].ToString(), ds.Tables[0].Rows[0].ItemArray[1].ToString(), ds.Tables[0].Rows[0].ItemArray[2].ToString());
+                            if (MailSendingStatus == "Success")
+                            {
+                                string Qry = "Update [dbo].[EDIData] set [MailStatus]='Suceess' where FileName='" + ds.Tables[0].Rows[0].ItemArray[1].ToString() + "'";
+                                SqlCommand cmd1 = new SqlCommand(Qry, Sqlcon);
 
-                            cmd1.ExecuteNonQuery();
+                                cmd1.ExecuteNonQuery();
+                            }
                         }
                     }
                 }
+                Sqlcon.Close();
             }
-            Sqlcon.Close(); 
+            catch (Exception ex)
+            {
+            }
         }
 
         public string Sendmail(string line, string filename, string filepath)

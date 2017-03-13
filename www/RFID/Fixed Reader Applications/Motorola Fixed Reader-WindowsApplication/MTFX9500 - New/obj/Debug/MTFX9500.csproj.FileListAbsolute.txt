@@ -160,3 +160,6 @@ D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplicati
 D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.TestEPMS.resources
 D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\CS_RFID3_Host_Sample1.WriteForm.resources
 D:\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.csproj.GenerateResource.Cache
+D:\Dev\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\bin\debug\MTFX9500.exe.config
+D:\Dev\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.exe
+D:\Dev\Sandeep\RFID\Fixed Reader Applications\Motorola Fixed Reader-WindowsApplication\MTFX9500 - New\obj\Debug\MTFX9500.pdb
